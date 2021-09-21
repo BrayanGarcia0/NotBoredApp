@@ -1089,6 +1089,7 @@ color background_material_dark
 color background_material_light
 color black
 color blueHome
+color blueHomeOpac
 color blueWhiteHome
 color boxStrokeET
 color bright_foreground_disabled_material_dark
@@ -1150,6 +1151,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1270,6 +1272,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -1797,6 +1800,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_arrow_forward
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2013,7 +2017,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextEmail
+id editParticipants
 id edit_query
 id elastic
 id end
@@ -2077,6 +2081,7 @@ id line3
 id linear
 id listMode
 id list_item
+id list_view
 id masked
 id match_constraint
 id match_parent
@@ -2294,6 +2299,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvTerms
+id tvTitleActivities
 id tvTitleHome
 id unchecked
 id uniform
@@ -2384,8 +2390,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_activities
 layout activity_main
 layout custom_dialog
+layout custom_list
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

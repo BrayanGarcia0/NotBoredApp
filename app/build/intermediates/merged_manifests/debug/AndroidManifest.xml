@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.NotBoredApp" >
         <activity
+            android:name="com.learning.notboredapp.ActivitiesActivity"
+            android:exported="true" />
+        <activity
             android:name="com.learning.notboredapp.MainActivity"
             android:exported="true" >
             <intent-filter>

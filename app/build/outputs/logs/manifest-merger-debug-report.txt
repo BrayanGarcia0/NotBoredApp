@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.databinding:viewbinding:7.0.2] /Users/dalfarofierr/.gradle/caches/transforms-3/e983a23701fb221f92534e229f04beb8/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.6.0] /Users/dalfarofierr/.gradle/caches/transforms-3/b8ef2c78c0889ca0e649d87d42e14ef2/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/dalfarofierr/.gradle/caches/transforms-3/2e0ddcd6e7e9f4c3e97cbbc25aba0df5/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -47,25 +47,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/dalfarofierr/.gradle/caches/transforms-3/00ad26f294d29e2826f3ba551180c094/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dalfarofierr/.gradle/caches/transforms-3/7bddefcf65f31fd4daa9ca35afbcc4b7/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dalfarofierr/.gradle/caches/transforms-3/37ad860cea87f0feea3c76fa65143c38/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/dalfarofierr/.gradle/caches/transforms-3/2e0ddcd6e7e9f4c3e97cbbc25aba0df5/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/dalfarofierr/.gradle/caches/transforms-3/2e0ddcd6e7e9f4c3e97cbbc25aba0df5/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/dalfarofierr/.gradle/caches/transforms-3/be122f93765fea2ee7a73bd8229ddc58/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
@@ -88,22 +88,28 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dalf
 		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:11:9-49
-activity#com.learning.notboredapp.MainActivity
-ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:12:9-20:20
+activity#com.learning.notboredapp.ActivitiesActivity
+ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:12:9-14:39
 	android:exported
 		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:13:13-47
+activity#com.learning.notboredapp.MainActivity
+ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:exported
+		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml

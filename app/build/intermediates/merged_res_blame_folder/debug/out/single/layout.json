@@ -1,6 +1,14 @@
 [
     {
+        "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_activities.xml",
+        "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/activity_activities.xml"
+    },
+    {
         "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_list.xml",
+        "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/custom_list.xml"
     }
 ]

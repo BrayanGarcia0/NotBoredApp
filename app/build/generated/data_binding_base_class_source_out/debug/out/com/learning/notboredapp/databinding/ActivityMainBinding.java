@@ -26,7 +26,7 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnHome;
 
   @NonNull
-  public final TextInputEditText editTextEmail;
+  public final TextInputEditText editParticipants;
 
   @NonNull
   public final TextInputLayout etParticipants;
@@ -38,11 +38,11 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView tvTitleHome;
 
   private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull Button btnHome,
-      @NonNull TextInputEditText editTextEmail, @NonNull TextInputLayout etParticipants,
+      @NonNull TextInputEditText editParticipants, @NonNull TextInputLayout etParticipants,
       @NonNull TextView tvTerms, @NonNull TextView tvTitleHome) {
     this.rootView = rootView;
     this.btnHome = btnHome;
-    this.editTextEmail = editTextEmail;
+    this.editParticipants = editParticipants;
     this.etParticipants = etParticipants;
     this.tvTerms = tvTerms;
     this.tvTitleHome = tvTitleHome;
@@ -81,9 +81,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextEmail;
-      TextInputEditText editTextEmail = ViewBindings.findChildViewById(rootView, id);
-      if (editTextEmail == null) {
+      id = R.id.editParticipants;
+      TextInputEditText editParticipants = ViewBindings.findChildViewById(rootView, id);
+      if (editParticipants == null) {
         break missingId;
       }
 
@@ -105,8 +105,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ScrollView) rootView, btnHome, editTextEmail, etParticipants,
-          tvTerms, tvTitleHome);
+      return new ActivityMainBinding((ScrollView) rootView, btnHome, editParticipants,
+          etParticipants, tvTerms, tvTitleHome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
