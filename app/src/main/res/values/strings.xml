@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Not Bored App</string>
+    <string name="str_terms_and_conditions"><u>Terms and conditions</u></string>
+    <string name="str_btnHome">Start</string>
+    <string name="str_etParticipants">Participants</string>
+    <string name="str_tvTitleHome">Not Bored</string>
 </resources>
