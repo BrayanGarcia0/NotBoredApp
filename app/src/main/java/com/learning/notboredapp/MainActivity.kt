@@ -12,12 +12,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnHome.setOnClickListener { changeToSuggestions() }
+        binding.btnHome.setOnClickListener { changeToActivities() }
 
         binding.tvTerms.setOnClickListener { changeToFragmentTerms() }
     }
 
-    private fun changeToSuggestions() {
+    private fun changeToActivities() {
         TODO("Not yet implemented")
     }
 
