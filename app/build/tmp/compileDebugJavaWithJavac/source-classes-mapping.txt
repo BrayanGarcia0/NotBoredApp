@@ -1,0 +1,6 @@
+com/learning/notboredapp/BuildConfig.java
+ com.learning.notboredapp.BuildConfig
+com/learning/notboredapp/databinding/FragmentTermsAndConditionsBinding.java
+ com.learning.notboredapp.databinding.FragmentTermsAndConditionsBinding
+com/learning/notboredapp/databinding/ActivityMainBinding.java
+ com.learning.notboredapp.databinding.ActivityMainBinding

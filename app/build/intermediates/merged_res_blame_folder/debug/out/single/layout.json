@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/brgarcia/Desktop/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/brgarcia/Desktop/NotBoredApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/brgarcia/Desktop/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_terms_and_conditions.xml",
+        "source": "/Users/brgarcia/Desktop/NotBoredApp/app/src/main/res/layout/fragment_terms_and_conditions.xml"
+    }
+]
