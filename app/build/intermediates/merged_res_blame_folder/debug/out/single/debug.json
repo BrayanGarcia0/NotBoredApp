@@ -8,6 +8,10 @@
         "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
+        "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
         "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/merged_res/debug/drawable_ic_arrow_forward.xml.flat",
         "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/drawable/ic_arrow_forward.xml"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/merged_res/debug/layout_fragment_terms_and_conditions.xml.flat",
+        "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/fragment_terms_and_conditions.xml"
     },
     {
         "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/merged_res/debug/layout_custom_list.xml.flat",

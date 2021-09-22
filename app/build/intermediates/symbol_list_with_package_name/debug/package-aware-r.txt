@@ -1083,6 +1083,8 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color app_name
+color background
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1945,6 +1947,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnHome
+id btnTermsAndConditionsClose
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2039,6 +2042,7 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container_view
 id fragment_container_view_tag
 id frost
 id ghost_view
@@ -2273,6 +2277,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewTermsAndConditionsDescription
+id textViewTermsAndConditionsTitle
+id textViewTermsConditionsAppName
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2409,6 +2416,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
+layout fragment_terms_and_conditions
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2525,10 +2534,12 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string close
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -2598,6 +2609,8 @@ string str_btnHome
 string str_etParticipants
 string str_terms_and_conditions
 string str_tvTitleHome
+string terms_and_conditions
+string terms_conditions
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

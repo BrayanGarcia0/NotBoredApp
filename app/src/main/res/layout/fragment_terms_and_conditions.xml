@@ -9,20 +9,20 @@
     android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
-    <Button
+    <ImageButton
         android:id="@+id/btnTermsAndConditionsClose"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="?android:selectableItemBackground"
-        android:text="X"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
+        android:background="@android:drawable/ic_delete"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textViewTermsAndConditionsTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewTermsAndConditionsTitle"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_gravity="right" />
+        android:layout_gravity="right"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        />
 
     <TextView
         android:id="@+id/textViewTermsAndConditionsTitle"

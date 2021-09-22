@@ -1,5 +1,9 @@
 com/learning/notboredapp/BuildConfig.java
  com.learning.notboredapp.BuildConfig
+com/learning/notboredapp/databinding/FragmentHomeBinding.java
+ com.learning.notboredapp.databinding.FragmentHomeBinding
+com/learning/notboredapp/databinding/FragmentTermsAndConditionsBinding.java
+ com.learning.notboredapp.databinding.FragmentTermsAndConditionsBinding
 com/learning/notboredapp/databinding/ActivityActivitiesBinding.java
  com.learning.notboredapp.databinding.ActivityActivitiesBinding
 com/learning/notboredapp/databinding/CustomListBinding.java

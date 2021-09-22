@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blueWhiteHome"
+    tools:context=".ui.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tvTitleHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTopTitle"
+            android:text="@string/str_tvTitleHome"
+            android:textColor="@color/blueHome"
+            android:textSize="@dimen/textSizeTitle"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etParticipants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginHorizontalboxHome"
+            android:hint="@string/str_etParticipants"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline"
+            app:boxCollapsedPaddingTop="@dimen/cornerRadiudET"
+            app:boxCornerRadiusBottomEnd="@dimen/cornerRadiudET"
+            app:boxCornerRadiusBottomStart="@dimen/cornerRadiudET"
+            app:boxCornerRadiusTopEnd="@dimen/cornerRadiudET"
+            app:boxCornerRadiusTopStart="@dimen/cornerRadiudET"
+            android:layout_marginTop="@dimen/marginTopTitle"
+            app:boxStrokeColor="@color/boxStrokeET"
+            app:hintTextColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleHome">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editParticipants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/marginHorizontalboxHome"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/blueHome"
+            android:text="@string/str_btnHome"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etParticipants"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginBottom="100dp"
+            android:text="@string/str_terms_and_conditions"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSizeTerms"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnHome" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

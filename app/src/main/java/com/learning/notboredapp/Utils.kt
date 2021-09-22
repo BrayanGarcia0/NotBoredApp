@@ -1,8 +1,10 @@
 package com.learning.notboredapp
 
-import android.text.Editable
+import android.content.Context
+import android.view.View
+import android.widget.Button
 import androidx.core.content.ContextCompat
-import com.learning.notboredapp.databinding.ActivityMainBinding
+import com.learning.notboredapp.ui.HomeFragment
 
 object Utils {
     val titleList: List<String> = listOf(
@@ -18,28 +20,42 @@ object Utils {
     )
 
 
-
     fun validatorOfNroParticipants(
-        context: MainActivity,
-        p0: Editable,
-        binding: ActivityMainBinding
+        context: Context,
+        p0: String,
+        view: View
     ) {
-        if (p0.toString().isEmpty()) {
-            binding.btnHome.isEnabled = true
-            binding.btnHome.setBackgroundColor(
-                ContextCompat.getColor(
-                    context,
-                    R.color.blueHome
+        val btnHome = view.findViewById<Button>(R.id.btnHome)
+
+        when {
+            p0.isEmpty() -> {
+                btnHome.isEnabled = true
+                btnHome.setBackgroundColor(
+                    ContextCompat.getColor(
+                        context,
+                        R.color.blueHome
+                    )
                 )
-            )
-        } else if (p0.toString().toInt() == 0) {
-            binding.btnHome.isEnabled = false
-            binding.btnHome.setBackgroundColor(
-                ContextCompat.getColor(
-                    context,
-                    R.color.gray
+            }
+
+            p0.toInt() == 0 -> {
+                btnHome.isEnabled = false
+                btnHome.setBackgroundColor(
+                    ContextCompat.getColor(
+                        context,
+                        R.color.gray
+                    )
                 )
-            )
+            }
+            else->{
+                btnHome.isEnabled = true
+                btnHome.setBackgroundColor(
+                    ContextCompat.getColor(
+                        context,
+                        R.color.blueHome
+                    )
+                )}
         }
+
     }
 }
