@@ -13,4 +13,6 @@
     <color name="boxStrokeET">#BEBEBE</color>
     <color name="transparent">#00000000</color>
     <color name="gray">#A1A1A1</color>
+    <color name="background">#91BED6</color>
+    <color name="app_name">#03A9F4</color>
 </resources>

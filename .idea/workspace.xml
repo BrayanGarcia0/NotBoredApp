@@ -12,6 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <list default="true" id="12f8d054-55f8-427c-bfb9-d86057439bb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -19,12 +20,21 @@
 =======
     <list default="true" id="12f8d054-55f8-427c-bfb9-d86057439bb0" name="Default Changelist" comment="" />
 >>>>>>> Stashed changes
+=======
+    <list default="true" id="16660d16-9efc-40cd-8cb3-704f456aeb0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> terms
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/dalfarofierr/.android/avd/Pixel_2_API_28.avd]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/brgarcia/.android/avd/Nexus_5X_API_30.avd]" />
+>>>>>>> terms
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -58,6 +68,7 @@
       </state>
     </system>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -74,6 +85,12 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ySIyFoIzQOIWTPNbtVh1cqu7ou" />
+>>>>>>> terms
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -81,6 +98,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -90,6 +108,8 @@
     <key name="android.template.-1458849226">
       <recent name="com.learning.notboredapp" />
     </key>
+=======
+>>>>>>> terms
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -154,11 +174,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="12f8d054-55f8-427c-bfb9-d86057439bb0" name="Default Changelist" comment="" />
       <created>1632239300818</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632239300818</updated>
+=======
+      <changelist id="16660d16-9efc-40cd-8cb3-704f456aeb0d" name="Default Changelist" comment="" />
+      <created>1632238814784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632238814784</updated>
+>>>>>>> terms
     </task>
     <servers />
   </component>
@@ -174,6 +202,7 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -215,4 +244,6 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+>>>>>>> terms
 </project>
