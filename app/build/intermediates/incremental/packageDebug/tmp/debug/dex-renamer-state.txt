@@ -1,12 +1,12 @@
-#Tue Sep 21 20:03:41 CLST 2021
-path.3=7/classes.dex
-path.2=9/classes.dex
+#Wed Sep 22 10:53:11 COT 2021
+path.3=9/classes.dex
+path.2=7/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
-base.2=/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
-base.1=/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.3=/Users/brgarcia/Desktop/NotBoredApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.2=/Users/brgarcia/Desktop/NotBoredApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.1=/Users/brgarcia/Desktop/NotBoredApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/brgarcia/Desktop/NotBoredApp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

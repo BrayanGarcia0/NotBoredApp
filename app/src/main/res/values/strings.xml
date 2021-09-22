@@ -4,4 +4,5 @@
     <string name="str_btnHome">Start</string>
     <string name="str_etParticipants">Participants</string>
     <string name="str_tvTitleHome">Not Bored</string>
+    <string name="activities_title">ACTIVITIES</string>
 </resources>

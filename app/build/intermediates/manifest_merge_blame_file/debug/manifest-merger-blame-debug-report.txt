@@ -6,52 +6,58 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="27"
-8-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml
+8-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml
+9-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:5:5-24:19
+11-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
-12-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:6:9-35
+12-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.6.0] /Users/dalfarofierr/.gradle/caches/transforms-3/edeb430ac0b0bea9c609d4daffe0d06e/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0-beta01] /Users/brgarcia/.gradle/caches/transforms-3/27ff009143690336cca3089111e7fcc2/transformed/core-1.7.0-beta01/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
-16-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:7:9-43
+16-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
-17-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:8:9-41
+17-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:8:9-41
 18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:9:9-54
+18-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:10:9-35
+19-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/Theme.NotBoredApp" >
-21-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:11:9-49
+21-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:11:9-49
 22        <activity
-22-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:12:9-14:39
-23            android:name="com.learning.notboredapp.ActivitiesActivity"
-23-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:13:13-47
+22-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:12:9-14:39
+23            android:name="com.learning.notboredapp.SuggestionActivity"
+23-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:13:13-47
 24            android:exported="true" />
-24-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:14:13-36
+24-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:14:13-36
 25        <activity
-25-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:15:9-23:20
-26            android:name="com.learning.notboredapp.MainActivity"
-26-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:16:13-41
-27            android:exported="true" >
-27-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:17:13-36
-28            <intent-filter>
-28-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:18:13-22:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:19:17-69
-29-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:19:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:21:17-77
-31-->/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/AndroidManifest.xml:21:27-74
-32            </intent-filter>
-33        </activity>
-34    </application>
-35
-36</manifest>
+25-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:15:9-17:39
+26            android:name="com.learning.notboredapp.ActivitiesActivity"
+26-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:16:13-47
+27            android:exported="true" />
+27-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:17:13-36
+28        <activity
+28-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:18:9-26:20
+29            android:name="com.learning.notboredapp.MainActivity"
+29-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:19:13-41
+30            android:exported="true" >
+30-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:20:13-36
+31            <intent-filter>
+31-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:21:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:22:17-69
+32-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:24:17-77
+34-->/Users/brgarcia/Desktop/NotBoredApp/app/src/main/AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
