@@ -4,7 +4,7 @@ import com.learning.notboredapp.data.model.SuggestedActivity
 
 interface IActivityRepository {
 
-    suspend fun getActivityByType(type: String): SuggestedActivity
+    suspend fun getActivityByType(type: String, participants: Int): SuggestedActivity
 
     suspend fun getRandomActivity(participants: Int): SuggestedActivity
 }

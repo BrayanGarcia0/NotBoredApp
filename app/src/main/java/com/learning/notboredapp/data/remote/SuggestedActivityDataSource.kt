@@ -5,8 +5,8 @@ import com.learning.notboredapp.data.service.WebService
 
 class SuggestedActivityDataSource(private val webService: WebService){
 
-    suspend fun getActivityByType(type: String): SuggestedActivity{
-        return webService.getActivityByType(type)
+    suspend fun getActivityByType(type: String, participants: Int): SuggestedActivity{
+        return webService.getActivityByType(type, participants)
     }
 
     suspend fun getRandomActivity(participants: Int): SuggestedActivity{
