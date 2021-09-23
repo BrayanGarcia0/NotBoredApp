@@ -1,10 +1,14 @@
+com/learning/notboredapp/databinding/ActivitySuggestedDetailBinding.java
+ com.learning.notboredapp.databinding.ActivitySuggestedDetailBinding
 com/learning/notboredapp/BuildConfig.java
  com.learning.notboredapp.BuildConfig
-com/learning/notboredapp/databinding/ActivitySuggestionBinding.java
- com.learning.notboredapp.databinding.ActivitySuggestionBinding
 com/learning/notboredapp/databinding/ActivityActivitiesBinding.java
  com.learning.notboredapp.databinding.ActivityActivitiesBinding
 com/learning/notboredapp/databinding/CustomListBinding.java
  com.learning.notboredapp.databinding.CustomListBinding
+com/learning/notboredapp/databinding/FragmentDetailActivityBinding.java
+ com.learning.notboredapp.databinding.FragmentDetailActivityBinding
+com/learning/notboredapp/databinding/ActivitiesToolbarBinding.java
+ com.learning.notboredapp.databinding.ActivitiesToolbarBinding
 com/learning/notboredapp/databinding/ActivityMainBinding.java
  com.learning.notboredapp.databinding.ActivityMainBinding

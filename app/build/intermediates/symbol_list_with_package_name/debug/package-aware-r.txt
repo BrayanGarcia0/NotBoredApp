@@ -1802,6 +1802,10 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_forward
+drawable ic_baseline_arrow_back_ios_24
+drawable ic_baseline_attach_money_24
+drawable ic_baseline_list_24
+drawable ic_baseline_person_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1843,6 +1847,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable random_arrows
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1927,6 +1932,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appBarLayout
 id arc
 id asConfigured
 id async
@@ -1946,6 +1952,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnHome
+id btnTryAnother
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2063,7 +2070,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButton
+id imageView
+id imageView2
+id imageViewActType
+id imgBtnRandomActivity
 id immediateStop
 id included
 id info
@@ -2279,7 +2289,11 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textViewSuggestionActivity
+id textView2
+id textView5
+id textViewParticipantsNumber
+id textViewPrice
+id textViewSuggActDesc
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2294,6 +2308,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbarActivities
 id top
 id topPanel
 id touch_outside
@@ -2308,6 +2323,8 @@ id triangle
 id tvTerms
 id tvTitleActivities
 id tvTitleHome
+id txtViewTitleSuggAct
+id txtVwActName
 id unchecked
 id uniform
 id unlabeled
@@ -2397,9 +2414,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activities_toolbar
 layout activity_activities
 layout activity_main
-layout activity_suggestion
+layout activity_suggested_detail
 layout custom_dialog
 layout custom_list
 layout design_bottom_navigation_item
@@ -2417,6 +2435,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_detail_activity
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2526,6 +2545,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string activities_title
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2539,6 +2559,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -2597,6 +2618,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string participants_title
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2608,6 +2630,7 @@ string str_btnHome
 string str_etParticipants
 string str_terms_and_conditions
 string str_tvTitleHome
+string try_another
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

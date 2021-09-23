@@ -9,9 +9,9 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface WebService {
-    @GET()
+    @GET(".")
     suspend fun getActivityByType(@Query("type") type: String): SuggestedActivity
-
+    @GET(".")
     suspend fun getRandomActivity(@Query("participants") participants: Int): SuggestedActivity
 }
 
