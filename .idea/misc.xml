@@ -5,17 +5,11 @@
       <map>
         <entry key="app/src/main/res/layout/activity_activities.xml" value="0.10185185185185185" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2572463768115942" />
+        <entry key="app/src/main/res/layout/activity_suggested_detail.xml" value="0.4035897435897436" />
         <entry key="app/src/main/res/layout/custom_list.xml" value="0.20185185185185187" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21041666666666667" />
         <entry key="app/src/main/res/layout/fragment_terms_and_conditions.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activities_toolbar.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_activities.xml" value="0.24427083333333333" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2572463768115942" />
-        <entry key="app/src/main/res/layout/activity_suggested_detail.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_suggestion.xml" value="0.23020833333333332" />
-        <entry key="app/src/main/res/layout/custom_list.xml" value="0.24427083333333333" />
-        <entry key="app/src/main/res/layout/fragment_detail_activity.xml" value="0.20643363728470113" />
       </map>
     </option>
   </component>
