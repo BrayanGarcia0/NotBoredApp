@@ -10,13 +10,13 @@ import retrofit2.http.Query
 
 interface WebService {
     @GET(".")
-    suspend fun getActivityByType(@Query("type") type: String): SuggestedActivity
+    suspend fun getActivityByType(@Query("type") type: String, @Query("participants") participants: Int): SuggestedActivity
     @GET(".")
     suspend fun getRandomActivity(@Query("participants") participants: String): SuggestedActivity
 }
 
 object RetrofitClient {
-    val webService  by lazy {
+    val webService: WebService by lazy {
         Retrofit.Builder()
             .baseUrl(AppConstants.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))

@@ -9,10 +9,10 @@ import kotlinx.coroutines.Dispatchers
 import java.lang.Exception
 
 class SuggestionViewModel(private val repo: IActivityRepository): ViewModel() {
-    fun suggestedActivityByType(activityType: String) = liveData(Dispatchers.IO){
+    fun suggestedActivityByType(activityType: String, participants: Int) = liveData(Dispatchers.IO){
         emit(Resource.Loading())
         try {
-            emit(Resource.Success(repo.getActivityByType(activityType)))
+            emit(Resource.Success(repo.getActivityByType(activityType, participants)))
         } catch (e: Exception){
             emit(Resource.Failure(e))
         }

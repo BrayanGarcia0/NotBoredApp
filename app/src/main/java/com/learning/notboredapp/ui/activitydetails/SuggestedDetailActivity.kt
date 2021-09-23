@@ -39,7 +39,6 @@ class SuggestedDetailActivity : AppCompatActivity() {
         binding = ActivitySuggestedDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
         fillView()
-
         binding.imgBtnReturnToActivities.setOnClickListener {
             finish()
         }
@@ -56,10 +55,10 @@ class SuggestedDetailActivity : AppCompatActivity() {
 
     }
 
-    fun fillView() {
+    private fun fillView() {
         val intentParameters = intent
         if (!intentParameters.getStringExtra("type").isNullOrEmpty()) {
-            viewModel.suggestedActivityByType(intent.getStringExtra("type").toString().lowercase())
+            viewModel.suggestedActivityByType(intent.getStringExtra("type").toString().lowercase(), intent.getIntExtra("participants", 0))
                 .observe(this, Observer { result ->
                     when (result) {
                         is Resource.Loading -> {
@@ -75,6 +74,7 @@ class SuggestedDetailActivity : AppCompatActivity() {
                     }
                 })
         } else {
+            Log.d("problems", "Entra! ${intent.getIntExtra("participants", 1)}")
             viewModel.randomSuggestedActivity(intent.getIntExtra("participants", 1))
                 .observe(this, Observer { result ->
                     when (result) {
