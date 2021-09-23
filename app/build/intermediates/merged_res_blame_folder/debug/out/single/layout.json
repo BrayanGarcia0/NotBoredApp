@@ -1,11 +1,23 @@
 [
     {
+        "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_suggested_detail.xml",
+        "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/activity_suggested_detail.xml"
+    },
+    {
         "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
         "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/fragment_home.xml"
     },
     {
+        "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activities_toolbar.xml",
+        "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/activities_toolbar.xml"
+    },
+    {
         "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_activities.xml",
         "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/activity_activities.xml"
+    },
+    {
+        "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_detail_activity.xml",
+        "source": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/src/main/res/layout/fragment_detail_activity.xml"
     },
     {
         "merged": "/Users/dalfarofierr/Documents/GitHub/NotBoredApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",

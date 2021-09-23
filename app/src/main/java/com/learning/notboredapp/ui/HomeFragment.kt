@@ -9,15 +9,15 @@ import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.commit
 import androidx.fragment.app.replace
-import com.learning.notboredapp.ActivitiesActivity
-import com.learning.notboredapp.MainActivity
 import com.learning.notboredapp.R
 import com.learning.notboredapp.databinding.FragmentHomeBinding
 
 import android.widget.Button
+import android.widget.TextView
 import androidx.core.widget.doAfterTextChanged
 import com.google.android.material.textfield.TextInputEditText
-import com.learning.notboredapp.Utils
+import com.learning.notboredapp.core.Utils
+import com.learning.notboredapp.ui.activity.ActivitiesActivity
 
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
@@ -28,12 +28,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         super.onCreate(savedInstanceState)
         binding = FragmentHomeBinding.inflate(layoutInflater)
         binding.btnHome.setOnClickListener {
-            println("rt")
-            println("e")
-            println("d")
-            println("f")
-            println("s")
-            //changeToActivities(binding.etParticipants.editText?.text.toString())
+
+            changeToActivities(binding.etParticipants.editText?.text.toString())
         }
     }
 
@@ -47,6 +43,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         val buttonActivities = view.findViewById<Button>(R.id.btnHome)
         val etParticipants = view.findViewById<TextInputEditText>(R.id.editParticipants)
+        val tvTerms=view.findViewById<TextView>(R.id.tvTerms)
 
         etParticipants.doAfterTextChanged { edit ->
             edit.toString()
@@ -57,7 +54,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             changeToActivities(binding.etParticipants.editText?.text.toString())
         }
 
-//        binding.tvTerms.setOnClickListener { changeToFragmentTerms() }
+        tvTerms.setOnClickListener { changeToFragmentTerms() }
 
         return view
     }
