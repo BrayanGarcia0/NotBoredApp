@@ -12,7 +12,7 @@ interface WebService {
     @GET(".")
     suspend fun getActivityByType(@Query("type") type: String): SuggestedActivity
     @GET(".")
-    suspend fun getRandomActivity(@Query("participants") participants: Int): SuggestedActivity
+    suspend fun getRandomActivity(@Query("participants") participants: String): SuggestedActivity
 }
 
 object RetrofitClient {

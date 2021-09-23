@@ -21,7 +21,7 @@ class SuggestionViewModel(private val repo: IActivityRepository): ViewModel() {
     fun randomSuggestedActivity(participants: Int) = liveData(Dispatchers.IO){
         emit(Resource.Loading())
         try {
-            emit(Resource.Success(repo.getRandomActivity(participants)))
+            emit(Resource.Success(repo.getRandomActivity(participants.toString())))
         } catch (e: Exception){
             emit(Resource.Failure(e))
         }

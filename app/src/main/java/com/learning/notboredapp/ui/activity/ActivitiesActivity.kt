@@ -39,6 +39,11 @@ class ActivitiesActivity : AppCompatActivity() {
     }
 
     fun gotoNextActivity(type: String, participants: Int){
+        println("n")
+        println("n")
+        println(participants)
+        println("n")
+        println("n")
         val nextActivityIntent: Intent = Intent(this, SuggestedDetailActivity::class.java)
         nextActivityIntent.putExtra("type", type)
         nextActivityIntent.putExtra("participants", participants)

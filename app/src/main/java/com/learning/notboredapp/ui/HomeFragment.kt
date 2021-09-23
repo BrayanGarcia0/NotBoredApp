@@ -26,11 +26,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = FragmentHomeBinding.inflate(layoutInflater)
-        binding.btnHome.setOnClickListener {
-
-            changeToActivities(binding.etParticipants.editText?.text.toString())
-        }
     }
 
     override fun onCreateView(
@@ -43,7 +38,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         val buttonActivities = view.findViewById<Button>(R.id.btnHome)
         val etParticipants = view.findViewById<TextInputEditText>(R.id.editParticipants)
-        val tvTerms=view.findViewById<TextView>(R.id.tvTerms)
+        val tvTerms = view.findViewById<TextView>(R.id.tvTerms)
 
         etParticipants.doAfterTextChanged { edit ->
             edit.toString()
@@ -51,7 +46,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }
 
         buttonActivities.setOnClickListener {
-            changeToActivities(binding.etParticipants.editText?.text.toString())
+            changeToActivities(etParticipants.text.toString())
         }
 
         tvTerms.setOnClickListener { changeToFragmentTerms() }
@@ -63,16 +58,20 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         val intent = Intent(activity, ActivitiesActivity::class.java)
 
-        if (participants.isNotEmpty()) {
 
+        if (participants.isNotEmpty()) {
             intent.putExtra("participants", participants.toInt())
         }
-
+        
         startActivity(intent)
 
     }
 
     private fun changeToFragmentTerms() {
-        (activity as FragmentActivity).supportFragmentManager.commit { replace<TermsAndConditionsFragment>(R.id.fragment_container_view) }
+        (activity as FragmentActivity).supportFragmentManager.commit {
+            replace<TermsAndConditionsFragment>(
+                R.id.fragment_container_view
+            )
+        }
     }
 }

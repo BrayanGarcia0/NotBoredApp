@@ -9,7 +9,7 @@ class SuggestedActivityDataSource(private val webService: WebService){
         return webService.getActivityByType(type)
     }
 
-    suspend fun getRandomActivity(participants: Int): SuggestedActivity{
+    suspend fun getRandomActivity(participants: String): SuggestedActivity{
         return webService.getRandomActivity(participants)
     }
 }

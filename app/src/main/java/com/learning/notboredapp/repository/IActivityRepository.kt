@@ -6,5 +6,5 @@ interface IActivityRepository {
 
     suspend fun getActivityByType(type: String): SuggestedActivity
 
-    suspend fun getRandomActivity(participants: Int): SuggestedActivity
+    suspend fun getRandomActivity(participants: String): SuggestedActivity
 }
