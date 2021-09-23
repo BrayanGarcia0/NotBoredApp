@@ -2073,6 +2073,7 @@ int id imageView 0x7f0801e5
 int id imageView2 0x7f0801e6
 int id imageViewActType 0x7f0801ef
 int id imgBtnRandomActivity 0x7f0801f5
+int id imgBtnReturnToActivities 0x7f0801f6
 int id immediateStop 0x7f0800db
 int id included 0x7f0800dc
 int id info 0x7f0800dd

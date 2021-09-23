@@ -1,5 +1,6 @@
 package com.learning.notboredapp.ui.activitydetails
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -34,7 +35,23 @@ class SuggestedDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySuggestedDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        fillView()
 
+        binding.imgBtnReturnToActivities.setOnClickListener {
+            finish()
+        }
+
+        binding.btnTryAnother.setOnClickListener {
+            val newActivity = Intent(this, SuggestedDetailActivity::class.java)
+            newActivity.putExtra("type", intent.getStringExtra("type"))
+            newActivity.putExtra("participants", intent.getIntExtra("participants", -1))
+
+            startActivity(newActivity)
+        }
+
+    }
+
+    fun fillView(){
         val intentParameters = intent
         if( !intentParameters.getStringExtra("type").isNullOrEmpty()) {
             viewModel.suggestedActivityByType(intent.getStringExtra("type").toString().lowercase())

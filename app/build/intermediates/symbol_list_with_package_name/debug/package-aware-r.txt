@@ -2074,6 +2074,7 @@ id imageView
 id imageView2
 id imageViewActType
 id imgBtnRandomActivity
+id imgBtnReturnToActivities
 id immediateStop
 id included
 id info
